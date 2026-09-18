@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and caches
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build and test output
+dist/
+build/
+out/
+target/
+coverage/
+.pytest_cache/
+.mypy_cache/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
